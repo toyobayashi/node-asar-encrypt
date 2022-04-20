@@ -1,0 +1,23 @@
+{
+  "name": "@tybys/node-asar-encrypt",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Encrypt your Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./script/build ./script/config.js"
+  },
+  "keywords": [
+    "asar"
+  ],
+  "author": "toyobayashi",
+  "license": "MIT",
+  "dependencies": {
+    "asar": "^3.1.0",
+    "asar-node": "3.1.0",
+    "fs-extra": "^10.1.0",
+    "node-addon-api": "*",
+    "node-gyp": "^8.4.1",
+    "terser": "^4.7.0"
+  }
+}

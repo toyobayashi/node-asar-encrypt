@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+/build
+*.node
+/src/key*
+/src/script.h
+.DS_Store
+/out
+/src/build
